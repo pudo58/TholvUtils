@@ -186,8 +186,4 @@ public class DateUtils {
         }
         throw new IllegalArgumentException("date is invalid");
     }
-
-    public static void main(String[] args) {
-        System.out.println(DateUtils.getCurrentDate());
-    }
 }

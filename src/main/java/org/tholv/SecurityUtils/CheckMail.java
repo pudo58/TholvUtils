@@ -2,6 +2,9 @@ package org.tholv.SecurityUtils;
 
 import org.tholv.Utils.StringUtils;
 
+/**
+ * Checkmail
+ */
 public class CheckMail {
     public static CheckMail getInstance(){
         return new CheckMail();
