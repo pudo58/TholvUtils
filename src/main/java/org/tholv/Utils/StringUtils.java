@@ -96,7 +96,8 @@ public class StringUtils {
     public synchronized static String upperCaseFirstWord(String str){
         int i=0;
         str.trim();
-     String[] strSplit = str.split(" ");
+        String temp=str.toLowerCase();
+     String[] strSplit = temp.split(" ");
           String strUpperCaseFirstWord[]= new String[strSplit.length];
           for(String s : strSplit){
               strUpperCaseFirstWord[i]= String.valueOf(s.charAt(0)).toUpperCase()+s.substring(1,s.length())+" ";

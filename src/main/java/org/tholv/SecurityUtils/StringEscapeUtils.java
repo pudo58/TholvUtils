@@ -33,22 +33,6 @@ import org.apache.commons.text.translate.NumericEntityUnescaper;
 import org.apache.commons.text.translate.OctalUnescaper;
 import org.apache.commons.text.translate.UnicodeUnescaper;
 import org.apache.commons.text.translate.UnicodeUnpairedSurrogateRemover;
-
-/**
- * <p>
- * Escapes and unescapes {@code String}s for Java, Java Script, HTML and XML.
- * </p>
- *
- * <p>
- * #ThreadSafe#
- * </p>
- *
- * <p>
- * This code has been adapted from Apache Commons Lang 3.5.
- * </p>
- *
- * @since 1.0
- */
 public class StringEscapeUtils {
 
     /* ESCAPE TRANSLATORS */

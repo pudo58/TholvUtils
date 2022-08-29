@@ -8,6 +8,7 @@ org\tholv\ModelUtils\TableClassBootstrap.class
 org\tholv\SecurityUtils\StringEscapeUtils$XsiUnescaper.class
 org\tholv\SecurityUtils\CheckMail.class
 org\tholv\SecurityUtils\Hash.class
+org\tholv\FileUtils\FileWriterIO.class
 org\tholv\Utils\DateUtils.class
 org\tholv\Utils\DoubleUtils$2.class
 org\tholv\Utils\StringUtils.class

@@ -8,18 +8,18 @@
         <artifactId>oss-parent</artifactId>
         <version>9</version>
     </parent>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
     <name>TholvUtils</name>
     <description>
-       Tholv Tools
+       Update write file excel report and check content image file
     </description>
     <url>https://github.com/pudo58/TholvUtils</url>
     <developers>
         <developer>
-            <name>La Van Tho</name>
+            <name>Lã Văn Thọ</name>
             <email>tholv@ftl.vn</email>
             <roles>
-                <role>Lead Developer</role>
+                <role>Leader Developer</role>
             </roles>
         </developer>
     </developers>

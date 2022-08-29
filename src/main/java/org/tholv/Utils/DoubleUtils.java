@@ -1,4 +1,5 @@
 package org.tholv.Utils;
+import java.io.PrintWriter;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
@@ -203,6 +204,9 @@ public class DoubleUtils {
     }
     public static double getRandomNumber(int min,int max){
         return min+Math.random()*(max-min);
+    }
+
+    public static void main(String[] args) {
     }
 
 

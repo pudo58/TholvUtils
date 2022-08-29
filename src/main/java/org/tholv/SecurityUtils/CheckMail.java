@@ -37,5 +37,4 @@ public class CheckMail {
     return true;
     }
 
-
 }

@@ -19,7 +19,7 @@ public class DateUtils {
     private SimpleDateFormat sdf6 = new SimpleDateFormat("yyyy/MM/dd");
     private SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     private SimpleDateFormat sdf5 = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-
+    private SimpleDateFormat sdf11 = new SimpleDateFormat("yyyyMMdd");
     public static DateUtils getInstance(String pattern) {
         return new DateUtils(pattern);
     }
@@ -39,7 +39,6 @@ public class DateUtils {
             return (sdf4.parse(date));
         } else if (pattern.equals("yyyy/MM/dd HH:mm:ss")) {
             return (sdf5.parse(date));
-
         } else if (pattern.equals("yyyy/MM/dd")) {
             return (sdf6.parse(date));
         } else if (pattern.equals("dd-MM-yyyy")) {
@@ -50,6 +49,8 @@ public class DateUtils {
             return (sdf10.parse(date));
         } else if (pattern.equals("yyyy")) {
             return (sdf9.parse(date));
+        }else if(pattern.equals("yyyyMMdd")){
+            return sdf11.parse(date);
         }
         throw new IllegalArgumentException("Pattern not supported");
     }
@@ -77,6 +78,8 @@ public class DateUtils {
             return sdf9.format(date);
         } else if (pattern.equals("yyyy-MM-dd HH:mm:ss.SSS")) {
             return sdf10.format(date);
+        }else if(pattern.equals("yyyyMMdd")){
+            return sdf11.format(date);
         }
         throw new IllegalArgumentException("Pattern not supported");
     }
